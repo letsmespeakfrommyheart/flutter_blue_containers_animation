@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   child: Container(
                     height: 70,
                     width: 70,
-                    color: Colors.yellow,
+                    color: Colors.blue.shade200,
                   ),
                 ),
                 FadeTransition(
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   child: Container(
                     height: 70,
                     width: 70,
-                    color: Colors.green,
+                    color: Colors.blue.shade200,
                   ),
                 ),
                 FadeTransition(
@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   child: Container(
                     height: 70,
                     width: 70,
-                    color: Colors.blue,
+                    color: Colors.blue.shade200,
                   ),
                 ),
               ],
@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   child: Container(
                     height: 70,
                     width: 70,
-                    color: Colors.orange,
+                    color: Colors.blue.shade200,
                   ),
                 ),
                 FadeTransition(
@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   child: Container(
                     height: 70,
                     width: 70,
-                    color: Colors.yellow,
+                    color: Colors.blue.shade200,
                   ),
                 ),
                 FadeTransition(
@@ -114,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   child: Container(
                     height: 70,
                     width: 70,
-                    color: Colors.green,
+                    color: Colors.blue.shade200,
                   ),
                 ),
               ],
@@ -133,7 +133,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   child: Container(
                     height: 70,
                     width: 70,
-                    color: Colors.red,
+                    color: Colors.blue.shade200,
                   ),
                 ),
                 FadeTransition(
@@ -142,7 +142,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   child: Container(
                     height: 70,
                     width: 70,
-                    color: Colors.orange,
+                    color: Colors.blue.shade200,
                   ),
                 ),
                 FadeTransition(
@@ -151,7 +151,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                   child: Container(
                     height: 70,
                     width: 70,
-                    color: Colors.yellow,
+                    color: Colors.blue.shade200,
                   ),
                 ),
               ],
