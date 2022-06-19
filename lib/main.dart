@@ -20,20 +20,22 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-  final String title;
+  const MyHomePage({
+    Key? key,
+  }) : super(key: key);
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
+  //controller with repeating animation
   late final AnimationController _controller = AnimationController(
     duration: const Duration(seconds: 3),
     vsync: this,
@@ -60,7 +62,9 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
               children: [
                 FadeTransition(
                   opacity: CurvedAnimation(
-                      parent: _controller, curve: const Interval(0.4, 0.6)),
+                      //Igit anterval for different time of appearance and disappiarence group of containers
+                      parent: _controller,
+                      curve: const Interval(0.4, 0.6)),
                   child: Container(
                     height: 70,
                     width: 70,
